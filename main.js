@@ -20,7 +20,7 @@ function getInputValue(){
     if(result<18.5){
         status.innerText= "Vücut Kitle İndeksiniz: " +result +" Zayıf"
         exp.innerText = "Boyunuza göre uygun ağırlıkta olmadığınızı, zayıf olduğunuzu gösterir. Zayıflık, bazı hastalıklar için risk oluşturan ve istenmeyen bir durumdur. Boyunuza uygun ağırlığa erişmeniz için yeterli ve dengeli beslenmeli, beslenme alışkanlıklarınızı geliştirmeye özen göstermelisiniz."
-        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec
+        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec + " Kg"
     }
 
     else if(result>=18.5 && result<=24.9){
@@ -30,24 +30,24 @@ function getInputValue(){
     else if(result>=25 && result<=29.9){
         status.innerText= "Vücut Kitle İndeksiniz: "+result+" Fazla Kilolu"
         exp.innerText = "Boyunuza göre vücut ağırlığınızın fazla olduğunu gösterir. Fazla kilolu olma durumu gerekli önlemler alınmadığı takdirde pek çok hastalık için risk faktörü olan obeziteye (şişmanlık) yol açar."
-        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec
+        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec + " Kg"
     }
 
     else if(result>=30 && result<=34.9){
         status.innerText= "Vücut Kitle İndeksiniz: "+result+" Obez 1.Derece"
         exp.innerText = "Boyunuza göre vücut ağırlığınızın fazla olduğunu bir başka deyişle şişman olduğunuzun bir göstergesidir. Şişmanlık, kalp-damar hastalıkları, diyabet, hipertansiyon v.b. kronik hastalıklar için risk faktörüdür. Bir sağlık kuruluşuna başvurarak hekim / diyetisyen kontrolünde zayıflayarak normal ağırlığa inmeniz sağlığınız açısından çok önemlidir. Lütfen, sağlık kuruluşuna başvurunuz."
-        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec
+        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec + " Kg"
     }
 
     else if(result>=35 && result<=39.9){
         status.innerText= "Vücut Kitle İndeksiniz: "+result+" Obez 2.Derece"
         exp.innerText = "Boyunuza göre vücut ağırlığınızın fazla olduğunu bir başka deyişle şişman olduğunuzun bir göstergesidir. Şişmanlık, kalp-damar hastalıkları, diyabet, hipertansiyon v.b. kronik hastalıklar için risk faktörüdür. Bir sağlık kuruluşuna başvurarak hekim / diyetisyen kontrolünde zayıflayarak normal ağırlığa inmeniz sağlığınız açısından çok önemlidir. Lütfen, sağlık kuruluşuna başvurunuz."
-        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec
+        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec + " Kg"
     }
     else if(result>=40){
         status.innerText= "Vücut Kitle İndeksiniz: "+result+" Obez 3.Derece"
         exp.innerText = "Boyunuza göre vücut ağırlığınızın fazla olduğunu bir başka deyişle şişman olduğunuzun bir göstergesidir. Şişmanlık, kalp-damar hastalıkları, diyabet, hipertansiyon v.b. kronik hastalıklar için risk faktörüdür. Bir sağlık kuruluşuna başvurarak hekim / diyetisyen kontrolünde zayıflayarak normal ağırlığa inmeniz sağlığınız açısından çok önemlidir. Lütfen, sağlık kuruluşuna başvurunuz."
-        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec
+        ideKilo.innerText = "İdeal Kilo Aralığınız : "+ idealFirst + " - " + idealSec + " Kg"
     }
     
 }
